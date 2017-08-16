@@ -33,7 +33,7 @@ read_cents(int min, int max) {
 
     printf("Enter amount in cents: ");
     if (scanf("%d", &cents) != 1 || cents < min || cents > max) {
-        printf("Error: Please enter an amount between 0 and 99.\n");
+        printf("Error: Please enter an amount between %d and %d.\n", min, max);
         exit(EXIT_FAILURE);
     }
 
