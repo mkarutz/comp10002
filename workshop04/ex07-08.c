@@ -3,15 +3,17 @@
 
 #define SIZE 1000 
 
-int kth_smallest(int A[], int n);
+int kth_smallest(int A[], int n, int k);
 int read_int_array(int A[], int size);
 
 int 
 main(int argc, char *argv[]) {
     int A[SIZE];
-    int n;
+    int n, k;
 
     n = read_int_array(A, SIZE);
+    printf("Enter a number between 0 and %d: ", n - 1);
+    scanf("%d", &k);
     printf("The kth smallest value is %d.\n", kth_smallest(A, n));
 
     return 0;
@@ -26,7 +28,7 @@ read_int_array(int A[], int size) {
 
 /* Gets the kth smallest value in the array. */
 int
-kth_smallest(int A[], int n) {
+kth_smallest(int A[], int n, int k) {
     /* Your code here. */
     return 0;
 }
