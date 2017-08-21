@@ -24,9 +24,10 @@ read_int_array(int A[], int size) {
     return 0;
 }
 
-/* Counts the number of elements in A that are less than the element before. 
+/* Counts the number "inversions", or the number of pairs that are out of order. 
    
-   eg. in the array {10, 13, 16, 18, 15, 22, 21} there are two inversions. */
+   eg. in the array {10, 13, 16, 18, 15, 22, 21} there are three: 
+   (13,18), (16,18), and (22,21) */
 int
 count_inversions(int A[], int n) {
     /* Your code here. */
