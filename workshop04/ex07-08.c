@@ -23,7 +23,7 @@ int
 read_k(int n) {
     int k;
     printf("Enter a value for k between 0 and %d: ", n - 1);
-    if (scanf("%d", &k) != 1) {
+    if (scanf("%d", &k) != 1 || k < 0 || k > n - 1) {
         printf("Invalid input for k.\n");
         exit(EXIT_FAILURE);
     }
