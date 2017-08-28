@@ -20,7 +20,7 @@ main(int argc, char *argv[]) {
 }
 
 int 
-is_anagram(char *A, char *B); {
+is_anagram(char *A, char *B) {
     /* Your code here. */
     return 0;
 }
