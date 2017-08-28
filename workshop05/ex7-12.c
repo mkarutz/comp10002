@@ -1,17 +1,17 @@
 #include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 int is_palindrome(char *S);
 
 int 
 main(int argc, char *argv[]) {
-    char *S1 = "rats live on no evil star";
-    char *S2 = "A man, a plan, a canal, Panama!";
-
     printf("Running tests:\n");
-    assert(is_palindrome(S1));
-    assert(!is_palindrome(S2));
+    assert(is_palindrome("rats live on no evil star"));
+    assert(is_palindrome("racecar"));
+    assert(!is_palindrome("A man, a plan, a canal, Panama!"));
+    assert(!is_palindrome("race car"));
     printf("All tests passed!\n");
 
     return 0;
