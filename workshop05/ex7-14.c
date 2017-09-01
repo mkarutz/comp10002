@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int my_atoi(char *S);
+int my_atoi(char *str);
 
 int 
 main(int argc, char *argv[]) {
@@ -20,7 +20,7 @@ main(int argc, char *argv[]) {
 }
 
 int
-my_atoi(char *S) {
+my_atoi(char *str) {
     /* Your code here. */
     return 0;
 }

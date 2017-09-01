@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int is_anagram(char *A, char *B);
+int is_anagram(char *str1, char *str2);
 
 int 
 main(int argc, char *argv[]) {
@@ -20,7 +20,7 @@ main(int argc, char *argv[]) {
 }
 
 int 
-is_anagram(char *A, char *B) {
+is_anagram(char *str1, char *str2) {
     /* Your code here. */
     return 0;
 }

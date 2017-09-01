@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int is_palindrome(char *S);
+int is_palindrome(char *str);
 
 int 
 main(int argc, char *argv[]) {
@@ -20,7 +20,7 @@ main(int argc, char *argv[]) {
 }
 
 int
-is_palindrome(char *S) {
+is_palindrome(char *str) {
     /* Your code here. */
     return 0;
 }
