@@ -12,7 +12,6 @@ main() {
     char s3[] = "54321";
     char s4[] = "aaaab";
 
-
     printf("Running tests:\n");
     nextperm(s1);
     assert(strcmp(s1, "52134") == 0);
