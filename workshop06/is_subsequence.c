@@ -4,15 +4,15 @@ int is_subsequence(char *s1, char *s2);
 
 int
 main() {
-    printf("Running tests:\n");
-    assert(is_subsequence("abc", "aaabbbccc"));
-    assert(!is_subsequence("aaabbbccc", "abc"));
-    assert(is_subsequence("abc", "abc"));
-    assert(is_subsequence("bee", "abbreviate"));
-    assert(!is_subsequence("bee", "acerbate"));
-    printf("All tests passed!\n");
+	printf("Running tests:\n");
+	assert(is_subsequence("abc", "aaabbbccc"));
+	assert(!is_subsequence("aaabbbccc", "abc"));
+	assert(is_subsequence("abc", "abc"));
+	assert(is_subsequence("bee", "abbreviate"));
+	assert(!is_subsequence("bee", "acerbate"));
+	printf("All tests passed!\n");
 
-    return 0;
+	return 0;
 }
 
 /* Returns 1 if the characters in s1 appear within s2 in the same order as they 
@@ -22,6 +22,6 @@ main() {
    is_subsequence("bee", "acerbate") should be 0.*/
 int 
 is_subsequence(char *s1, char *s2) {
-    /* Your code here. */
-    return 0;
+	/* Your code here. */
+	return 0;
 }

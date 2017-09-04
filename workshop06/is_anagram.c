@@ -7,16 +7,16 @@ int is_anagram(char *str1, char *str2);
 
 int 
 main(int argc, char *argv[]) {
-    printf("Running tests:\n");
-    assert(is_anagram("Algorithms", "Glamor Hits"));
-    assert(is_anagram("LUSTER", "result"));
-    assert(is_anagram("anything", "any     thing"));
-    assert(is_anagram("", ""));
-    assert(!is_anagram("", "anything"));
-    assert(!is_anagram("something", "something else"));
-    printf("All tests passed!\n");
+	printf("Running tests:\n");
+	assert(is_anagram("Algorithms", "Glamor Hits"));
+	assert(is_anagram("LUSTER", "result"));
+	assert(is_anagram("anything", "any     thing"));
+	assert(is_anagram("", ""));
+	assert(!is_anagram("", "anything"));
+	assert(!is_anagram("something", "something else"));
+	printf("All tests passed!\n");
 
-    return 0;
+	return 0;
 }
 
 /* Returns 1 if the two strings contain the same letters, possibly in a 
@@ -26,6 +26,6 @@ main(int argc, char *argv[]) {
    For example, is_anagram("Algorithms", "Glamor Hits") should return 1. */
 int 
 is_anagram(char *str1, char *str2) {
-    /* Your code here. */
-    return 0;
+	/* Your code here. */
+	return 0;
 }
