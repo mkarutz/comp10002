@@ -3,6 +3,8 @@
 #include <stdio.h>
 
 #define SIZE 5
+#define EXPECTED_A 5
+#define EXPECTED_B 1
 
 void count_distinct(int A[], int n);
 
@@ -12,8 +14,8 @@ main(int argc, char *argv[]) {
 	int B[SIZE] = {1, 1, 1, 1, 1};
 
 	printf("Running tests:\n");
-	assert(count_distinct(A, SIZE) == SIZE);
-	assert(count_distinct(B, SIZE) == 1);
+	assert(count_distinct(A, SIZE) == EXPECTED_A);
+	assert(count_distinct(B, SIZE) == EXPECTED_B);
 	assert(count_distinct(A, 0) == 0);
 	assert(count_distinct(B, 0) == 0);
 	printf("All tests passed!\n");
