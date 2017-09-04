@@ -4,7 +4,7 @@
 
 #define SIZE 5
 
-void is_sorted(int A[], int n);
+int is_sorted(int A[], int n);
 
 int
 main(int argc, char *argv[]) {
@@ -26,7 +26,7 @@ main(int argc, char *argv[]) {
 
 /* Returns 1 if the elements of the array are sorted, otherwise returns 0. */
 int 
-is_sorted(char A[], int n) {
+is_sorted(int A[], int n) {
 	/* Your code here. */
 	return 0;
 }
