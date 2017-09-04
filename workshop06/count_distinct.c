@@ -6,7 +6,7 @@
 #define EXPECTED_A 5
 #define EXPECTED_B 1
 
-void count_distinct(int A[], int n);
+int count_distinct(int A[], int n);
 
 int
 main(int argc, char *argv[]) {
@@ -26,7 +26,7 @@ main(int argc, char *argv[]) {
 /* Returns the number of distinct values in the array. The array is not 
    modified.*/
 int 
-count_distinct(char A[], int n) {
+count_distinct(int A[], int n) {
 	/* Your code here. */
 	return 0;
 }
