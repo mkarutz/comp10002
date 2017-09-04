@@ -6,7 +6,7 @@
 #define EXPECTED_A 2
 #define EXPECTED_B 0
 
-void find_longest_run(int A[], int n);
+int find_longest_run(int A[], int n);
 
 int
 main(int argc, char *argv[]) {
@@ -24,7 +24,7 @@ main(int argc, char *argv[]) {
 /* Returns the start point of the longest run of ascending values in the given
    array. Does not alter the array. */
 int 
-find_longest_run(char A[], int n) {
+find_longest_run(int A[], int n) {
 	/* Your code here. */
 	return 0;
 }
