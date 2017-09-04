@@ -6,7 +6,7 @@
 void nextperm(char *s);
 
 int
-main() {
+main(int argc, char *argv[]) {
 	char s1[] = "51432";
 	char s2[] = "12345";
 	char s3[] = "54321";

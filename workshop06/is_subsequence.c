@@ -3,7 +3,7 @@
 int is_subsequence(char *s1, char *s2);
 
 int
-main() {
+main(int argc, char *argv[]) {
 	printf("Running tests:\n");
 	assert(is_subsequence("abc", "aaabbbccc"));
 	assert(!is_subsequence("aaabbbccc", "abc"));

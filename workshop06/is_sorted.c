@@ -7,7 +7,7 @@
 void is_sorted(int A[], int n);
 
 int
-main() {
+main(int argc, char *argv[]) {
 	int A[SIZE] = {1, 2, 3, 4, 5};
 	int B[SIZE] = {1, 5, 4, 2, 3};
 	int C[SIZE] = {5, 5, 5, 5, 5};

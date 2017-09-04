@@ -7,7 +7,7 @@
 void count_distinct(int A[], int n);
 
 int
-main() {
+main(int argc, char *argv[]) {
 	int A[SIZE] = {1, 2, 3, 4, 5};
 	int B[SIZE] = {1, 1, 1, 1, 1};
 

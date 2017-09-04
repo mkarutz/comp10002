@@ -3,7 +3,7 @@
 int is_subset(char *str1, char *str2);
 
 int
-main() {
+main(int argc, char *argv[]) {
 	printf("Running tests:\n");
 	assert(is_subset("abc", "bbbcccaaa"));
 	assert(!is_subset("aaabbbccc", "abc"));

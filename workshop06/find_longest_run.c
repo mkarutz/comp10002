@@ -9,7 +9,7 @@
 void find_longest_run(int A[], int n);
 
 int
-main() {
+main(int argc, char *argv[]) {
 	int A[SIZE] = {1, 2, 1, 2, 3};
 	int B[SIZE] = {1, 1, 1, 1, 1};
 
