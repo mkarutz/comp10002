@@ -39,5 +39,5 @@ main(int argc, char *argv[]) {
    returns s should be "52134". */
 void 
 nextperm(char *s) {
-	/* Your code here. */
+	/* YOUR CODE HERE. */
 }

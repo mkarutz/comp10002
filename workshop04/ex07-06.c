@@ -27,18 +27,18 @@ main(int argc, char *argv[]) {
 int
 read_int_array(int A[], int size) {
 	printf("Enter as many as %d values, ^D to end:\n", size);
-	/* Your code here. */
+	/* YOUR CODE HERE. */
 	return 0;
 }
 
 void
 print_int_array(int A[], int n) {
-	/* Your code here. */
+	/* YOUR CODE HERE. */
 }
 
 void
 selection_sort(int A[], int n) {
-	/* Your code here. */
+	/* YOUR CODE HERE. */
 }
 
 void

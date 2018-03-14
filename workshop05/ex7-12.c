@@ -21,6 +21,6 @@ main(int argc, char *argv[]) {
 
 int
 is_palindrome(char *str) {
-	/* Your code here. */
+	/* YOUR CODE HERE. */
 	return 0;
 }

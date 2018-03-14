@@ -27,6 +27,6 @@ main(int argc, char *argv[]) {
 /* Returns 1 if the elements of the array are sorted, otherwise returns 0. */
 int 
 is_sorted(int A[], int n) {
-	/* Your code here. */
+	/* YOUR CODE HERE. */
 	return 0;
 }

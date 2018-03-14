@@ -27,6 +27,6 @@ main(int argc, char *argv[]) {
    modified.*/
 int 
 count_distinct(int A[], int n) {
-	/* Your code here. */
+	/* YOUR CODE HERE. */
 	return 0;
 }

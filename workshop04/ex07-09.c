@@ -20,7 +20,7 @@ main(int argc, char *argv[]) {
 int
 read_int_array(int A[], int size) {
 	printf("Enter as many as %d values, ^D to end:\n", size);
-	/* Your code here. */
+	/* YOUR CODE HERE. */
 	return 0;
 }
 
@@ -29,6 +29,6 @@ read_int_array(int A[], int size) {
    eg. in the array {10, 13, 16, 18, 15, 22, 21} there are three runs. */
 int
 count_ascending_runs(int A[], int n) {
-	/* Your code here. */
+	/* YOUR CODE HERE. */
 	return 0;
 }

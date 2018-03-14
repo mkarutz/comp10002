@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-/* Your code here: give declarations that reflect the data scenario that is 
+/* YOUR CODE HERE: give declarations that reflect the data scenario that is 
    described. */
 
 int calculate_avg_age_death(person_t *country, int num_people);
@@ -11,7 +11,7 @@ int calculate_tax_revenue(person_t *country, int num_people, int year);
 
 int 
 main(int argc, char *argv[]) {
-	/* Your code here: write some tests for your functions. */
+	/* YOUR CODE HERE: write some tests for your functions. */
 	return 0;
 }
 
@@ -19,7 +19,7 @@ main(int argc, char *argv[]) {
    include people that are not yet dead. */
 int 
 calculate_avg_age_death(person_t *country, int num_people) {
-	/* Your code here. */
+	/* YOUR CODE HERE. */
 	return 0;
 }
 
@@ -27,6 +27,6 @@ calculate_avg_age_death(person_t *country, int num_people) {
    specified year. */
 int 
 calculate_tax_revenue(person_t *country, int num_people, int year) {
-	/* Your code here. */
+	/* YOUR CODE HERE. */
 	return 0;
 }

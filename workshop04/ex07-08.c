@@ -33,13 +33,13 @@ read_k(int n) {
 int
 read_int_array(int A[], int size) {
 	printf("Enter as many as %d values, ^D to end:\n", size);
-	/* Your code here. */
+	/* YOUR CODE HERE. */
 	return 0;
 }
 
 /* Gets the kth smallest value in the array. */
 int
 kth_smallest(int A[], int n, int k) {
-	/* Your code here. */
+	/* YOUR CODE HERE. */
 	return 0;
 }

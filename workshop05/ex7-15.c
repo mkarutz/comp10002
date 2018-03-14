@@ -21,6 +21,6 @@ main(int argc, char *argv[]) {
 
 int 
 is_anagram(char *str1, char *str2) {
-	/* Your code here. */
+	/* YOUR CODE HERE. */
 	return 0;
 }

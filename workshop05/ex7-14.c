@@ -25,6 +25,6 @@ main(int argc, char *argv[]) {
 
 int
 my_atoi(char *str) {
-	/* Your code here. */
+	/* YOUR CODE HERE. */
 	return 0;
 }

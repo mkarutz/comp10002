@@ -24,6 +24,6 @@ main(int argc, char *argv[]) {
    is_subset("bee", "brake") should be 0. */
 int 
 is_subset(char *str1, char *str2) {
-	/* Your code here. */
+	/* YOUR CODE HERE. */
 	return 0;
 }

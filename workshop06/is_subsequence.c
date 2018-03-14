@@ -22,6 +22,6 @@ main(int argc, char *argv[]) {
    is_subsequence("bee", "acerbate") should be 0.*/
 int 
 is_subsequence(char *s1, char *s2) {
-	/* Your code here. */
+	/* YOUR CODE HERE. */
 	return 0;
 }

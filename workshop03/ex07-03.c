@@ -29,13 +29,13 @@ main(int argc, char *argv[]) {
 int
 read_int_array(int A[], int size) {
 	printf("Enter as many as %d values, ^D to end:\n", size);
-	/* Your code here. */
+	/* YOUR CODE HERE. */
 	return 0;
 }
 
 void
 print_int_array(int A[], int n) {
-	/* Your code here. */
+	/* YOUR CODE HERE. */
 }
 
 /* Sorts an array of integers, removing repeats. Returns the number of distinct 
@@ -67,6 +67,6 @@ swap_ints(int *a, int *b) {
    will remain in sorted order. Returns the number of distinct values. */
 int
 remove_repeats(int A[], int n) {
-	/* Your code here. */
+	/* YOUR CODE HERE. */
 	return 0;
 }

@@ -25,6 +25,6 @@ main(int argc, char *argv[]) {
    array. Does not alter the array. */
 int 
 find_longest_run(int A[], int n) {
-	/* Your code here. */
+	/* YOUR CODE HERE. */
 	return 0;
 }

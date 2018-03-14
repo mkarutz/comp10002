@@ -42,7 +42,7 @@ read_cents(int min, int max) {
 
 int
 round_to_5(int cents) {
-	/* Your code here. */
+	/* YOUR CODE HERE. */
 	return 0;
 }
 
@@ -50,12 +50,12 @@ round_to_5(int cents) {
 void
 print_change(int cents) {
 	printf("The coins required to make %d cents are:\n", cents);
-	/* Your code here. */
+	/* YOUR CODE HERE. */
 }
 
 /* Returns the number of coins to give, and updates the remaining amount. */
 int
 try_one_coin(int *cents, int coin) {
-	/* Your code here. */
+	/* YOUR CODE HERE. */
 	return 0;
 }
