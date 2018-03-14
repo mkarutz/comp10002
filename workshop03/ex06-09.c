@@ -18,44 +18,44 @@ int round_to_5(int cents);
 
 int 
 main(int argc, char *argv[]) {
-    int cents;
+	int cents;
 
-    cents = read_cents(MIN_CENTS, MAX_CENTS);
-    cents = round_to_5(cents);
-    print_change(cents);
+	cents = read_cents(MIN_CENTS, MAX_CENTS);
+	cents = round_to_5(cents);
+	print_change(cents);
 
-    return 0;
+	return 0;
 }
 
 int
 read_cents(int min, int max) {
-    int cents;
+	int cents;
 
-    printf("Enter amount in cents: ");
-    if (scanf("%d", &cents) != 1 || cents < min || cents > max) {
-        printf("Error: Please enter an amount between %d and %d.\n", min, max);
-        exit(EXIT_FAILURE);
-    }
+	printf("Enter amount in cents: ");
+	if (scanf("%d", &cents) != 1 || cents < min || cents > max) {
+		printf("Error: Please enter an amount between %d and %d.\n", min, max);
+		exit(EXIT_FAILURE);
+	}
 
-    return cents;
+	return cents;
 }
 
 int
 round_to_5(int cents) {
-    /* Your code here. */
-    return 0;
+	/* Your code here. */
+	return 0;
 }
 
 /* Prints the required coins for the given amount of change. */
 void
 print_change(int cents) {
-    printf("The coins required to make %d cents are:\n", cents);
-    /* Your code here. */
+	printf("The coins required to make %d cents are:\n", cents);
+	/* Your code here. */
 }
 
 /* Returns the number of coins to give, and updates the remaining amount. */
 int
 try_one_coin(int *cents, int coin) {
-    /* Your code here. */
-    return 0;
+	/* Your code here. */
+	return 0;
 }

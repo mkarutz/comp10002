@@ -10,7 +10,7 @@ main(int argc, char *argv[]) {
 	printf("Running tests:\n");
 	assert(is_anagram("Algorithms", "Glamor Hits"));
 	assert(is_anagram("LUSTER", "result"));
-	assert(is_anagram("anything", "any     thing"));
+	assert(is_anagram("anything", "any	 thing"));
 	assert(is_anagram("", ""));
 	assert(!is_anagram("", "anything"));
 	assert(!is_anagram("something", "something else"));
