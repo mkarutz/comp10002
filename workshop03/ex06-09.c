@@ -33,13 +33,14 @@ read_cents(int min, int max) {
 
 	printf("Enter amount in cents: ");
 	if (scanf("%d", &cents) != 1 || cents < min || cents > max) {
-		printf("Error: Please enter an amount between %d and %d.\n", min, max);
+		printf("Error: amount must be between %d and %d.\n", min, max);
 		exit(EXIT_FAILURE);
 	}
 
 	return cents;
 }
 
+/* Returns the amount rounded to the nearest 5 cents. */
 int
 round_to_5(int cents) {
 	/* YOUR CODE HERE. */
