@@ -12,13 +12,26 @@ main(int argc, char *argv[]) {
 	int A[SIZE];
 	int n, k;
 
+	/* Read in the array. */
 	n = read_int_array(A, SIZE);
+	
+	/* Read in the value for k. */
 	k = read_k(n);
+	
+	/* Print the kth smallest value. */
 	printf("The kth smallest value is %d.\n", kth_smallest(A, n, k));
 
 	return 0;
 }
 
+int
+read_int_array(int A[], int size) {
+	printf("Enter as many as %d values, ^D to end:\n", size);
+	/* YOUR CODE HERE. */
+	return 0;
+}
+
+/* Reads a value between 0 and n - 1. */
 int
 read_k(int n) {
 	int k;
@@ -28,13 +41,6 @@ read_k(int n) {
 		exit(EXIT_FAILURE);
 	}
 	return k;
-}
-
-int
-read_int_array(int A[], int size) {
-	printf("Enter as many as %d values, ^D to end:\n", size);
-	/* YOUR CODE HERE. */
-	return 0;
 }
 
 /* Gets the kth smallest value in the array. */

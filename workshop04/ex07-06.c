@@ -13,11 +13,17 @@ main(int argc, char *argv[]) {
 	int A[SIZE];
 	int n;
 
+	/* Read in the array. */
 	n = read_int_array(A, SIZE);
+	
+	/* Print the array before sorting. */
 	printf("Before: ");
 	print_int_array(A, n);
 
+	/* Sort the array. */
 	selection_sort(A, n);
+	
+	/* Print the array after sorting. */
 	printf("After: ");
 	print_int_array(A, n);
 

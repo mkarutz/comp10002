@@ -11,7 +11,10 @@ main(int argc, char *argv[]) {
 	int A[SIZE];
 	int n;
 
+	/* Read in the array. */
 	n = read_int_array(A, SIZE);
+	
+	/* Print the most frequent value. */
 	printf("The most frequent value is %d.\n", most_frequent(A, n));
 
 	return 0;
