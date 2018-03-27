@@ -21,8 +21,8 @@ main(int argc, char *argv[]) {
 }
 
 int
-read_int_array(int A[], int size) {
-	printf("Enter as many as %d values, ^D to end:\n", size);
+read_int_array(int A[], int maxvals) {
+	printf("Enter as many as %d values, ^D to end:\n", maxvals);
 	/* YOUR CODE HERE. */
 	return 0;
 }
