@@ -26,7 +26,10 @@ read_int_array(int A[], int size) {
 
 /* Counts the number of non-decreasing runs in the array.
 
-   eg. in the array {10, 13, 16, 18, 15, 22, 21} there are three runs. */
+   eg. in the array {10, 13, 16, 18, 15, 22, 21} there are three:
+       1. {10, 13, 16, 18}
+       2. {15, 22}
+       3. {21} */
 int
 count_ascending_runs(int A[], int n) {
 	/* YOUR CODE HERE. */
