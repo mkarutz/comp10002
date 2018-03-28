@@ -4,7 +4,7 @@
 #define SIZE 1000 
 
 int count_inversions(int A[], int n);
-int read_int_array(int A[], int size);
+int read_int_array(int A[], int maxvals);
 
 int 
 main(int argc, char *argv[]) {

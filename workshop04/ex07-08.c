@@ -4,7 +4,7 @@
 #define SIZE 1000 
 
 int kth_smallest(int A[], int n, int k);
-int read_int_array(int A[], int size);
+int read_int_array(int A[], int maxvals);
 int read_k(int n);
 
 int 
@@ -12,11 +12,17 @@ main(int argc, char *argv[]) {
 	int A[SIZE];
 	int n, k;
 
+	/* Read in the value for k. */
+	k = read_k(SIZE);
+
 	/* Read in the array. */
 	n = read_int_array(A, SIZE);
 	
-	/* Read in the value for k. */
-	k = read_k(n);
+	/* Check that k and n are valid. */
+	if (n <= k) {
+	    printf("Error: not enough integers for the given value of k.\n");
+	    exit(EXIT_FAILURE);
+	}
 	
 	/* Print the kth smallest value. */
 	printf("The kth smallest value is %d.\n", kth_smallest(A, n, k));
