@@ -19,7 +19,7 @@ main(int argc, char *argv[]) {
 
 	n = sort_int_array_distinct(nums, n);
 
-	printf("After : ");
+	printf("After: ");
 	print_int_array(nums, n);
 
 	return 0;

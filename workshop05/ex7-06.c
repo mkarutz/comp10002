@@ -19,7 +19,7 @@ main(int argc, char *argv[]) {
 
 	selection_sort(nums, n);
 
-	printf("After : ");
+	printf("After: ");
 	print_int_array(nums, n);
 
 	return 0;
