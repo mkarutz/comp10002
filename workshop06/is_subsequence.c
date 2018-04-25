@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include <assert.h>
 
 int is_subsequence(char *s1, char *s2);
